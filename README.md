@@ -1,5 +1,5 @@
 # docker-with-windows11-home
-As we know, Windows 11 Home cannot use the docker and here is the solution.
+As we know, Windows 11 Home cannot use Docker and here is the solution.
 
 1. Open PowerShell in administrator mode, enter the wsl --install command, then restart your machine.
 ```console
