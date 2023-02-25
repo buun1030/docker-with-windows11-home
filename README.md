@@ -7,12 +7,12 @@ wsl --install
 ```
 
 2. Before install Linux distributions, you need to enable virtualization on Windows 11 PCs first.
-2.1 Select Start > Settings > System > Recovery > Advanced startup, then select Restart now.
-2.2 Once your PC restarts, F12. Select Troubleshoot > Advanced options > UEFI Settings > Restart.
-2.3 Your PC will restart again and you'll be in the UEFI utility. At this step, you might see the UEFI referred to as the BIOS on your PC.
-2.4 For my PCs (Manufacturer GIGABYTE), Settings > Advanced CPU Settigns > SVM Mode > Enabled > Save & Exit
-2.5 You can check virtualization is enabled by Task Manager > Performance > CPU > Virtualization row
-2.6 Turn on Virtual Machine Platform in Windows
+> Select Start > Settings > System > Recovery > Advanced startup, then select Restart now.
+>> Once your PC restarts, F12. Select Troubleshoot > Advanced options > UEFI Settings > Restart.
+- Your PC will restart again and you'll be in the UEFI utility. At this step, you might see the UEFI   referred to as the BIOS on your PC.
+- For my PCs (Manufacturer GIGABYTE), Settings > Advanced CPU Settigns > SVM Mode > Enabled > Save & Exit.
+- You can check virtualization is enabled by Task Manager > Performance > CPU > Virtualization row
+- Turn on Virtual Machine Platform in Windows
 2.6.1  Select Start, enter Windows features, and select Turn Windows features on or off from the list of results.
 2.6.2 In the Windows Features window that just opened, find Virtual Machine Platform and select it.
 2.6.3 Select OK. You might need to restart your PC.
